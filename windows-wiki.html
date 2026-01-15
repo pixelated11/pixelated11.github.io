@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/wiki.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="script.js" defer></script>
+    <title>Pixelated's Wiki - Windows 11</title>
+</head>
+<body>
+    <nav id="sidebar">
+        <ul>
+            <li>
+                <span class="logo">Pixelated's Wiki</span>
+                <button onclick="toggleSidebar()" id="toggle-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+                </button>
+            </li>
+            <li>
+                <a href="#section0" style="margin-left: 40px;"><span>Introduction</span></a>
+            </li>
+            <li>
+                <button class="dropdown-btn" onclick="toggleSubMenu(this)">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                    <span>Installing Windows</span>
+                </button>
+                <ul class="sub-menu">
+                    <div>
+                        <li><a href="#subsection1a">Preparing Bootable Media</a></li>
+                        <li><a href="#subsection1b">Installing To a Disk</a></li>
+                        <li><a href="#subsection1c">Finishing the Installation</a></li>
+                    </div>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <br><br><br><br><br>
+        <div class="title"><h2 id="section0">Introduction</h2></div>
+        <div class="paragraph">
+            <p>Hi! I'm glad you picked my wiki on knowing windows 10, and 11 more. This wiki covers all of my knowledge about Windows 10 and Windows 11. My knowledge includes tweaking, quality of life softwares, installation guides, bypass guides, and more. I hope you enjoy my wiki,
+                and do support me using the support page from the main website page!
+            </p>
+        </div>
+        <br><br><br><hr class="line"><br><br><br>
+        <div class="title"><h2 id="section1">Installing Windows</h2></div>
+        <br>
+        <div class="paragraph">
+            <h3 id="subsection1a">Preparing a bootable media</h3>
+            <br><br>
+            <p>
+                Before we start the installation, we need to prepare a bootable media first. You need:
+                <br><br>
+                <b>A USB drive, at least 8GB in size</b>
+                <br><br>
+                <b>A 2nd computer that runs Windows</b>
+                <br><br>
+                <b>The target computer (the computer in which the new windows will be installed.)</b>
+                <br><br>
+                Now that you've prepared the following three things above, lets get started.
+                <br>
+                First of all, we need to download media creation tool, a software made by microsoft to upgrade your PC, and create windows bootable media.
+                You can get this piece of software from microsoft's official website. You can get them <a href="https://www.microsoft.com/en-gb/software-download/">here.</a>
+                <br><br>
+                Once you've landed on the website, you choose wether you want to install Windows 10, or Windows 11 (note that windows 7, 8, and 10 has reached its end of life/EoL.)
+                Download the <b>Media Creation Tool</b> software from the "Create a bootable media" section. It is referred by the image below.
+                <br>
+                <img src="images/Screenshot 2025-12-28 195041.png" alt="mediacreationtoolimage" width="1000px">
+                <br>
+                Once you've downloaded the media creation tool software, double-click it on file explorer/click it once if opening from the browser download section, accept the agreement, and then
+                choose your desired language and edition. After clicking next, make sure that you choose USB Flash drive from the selection, and <b>make sure that your USB drive is plugged in.</b> Select your
+                USB drive from the list of the USB drive and click next. Now, wait  for a few minutes for the software to download Windows 11 ISO, and flash it to your USB drive.
+                <br><br>
+                After your USB flash drive is ready, close the software, and safely eject your USB drive from your computer.
+            </p>
+            <br><br><br>
+            <h3 id="subsection1b">Installing Windows to a Computer/Disk</h3>
+            <br><br>
+            <p>
+                Now that you've prepared a bootable media for your new Windows PC, plug it in to your new target PC. When you turn it on, the boot order should automatically configure to boot into the installation media.
+                If not, then refer to the steps below on how to configure boot order. <br><br>
+                1. Turn on your computer, and repeatedly press F2, or ESC (depending on your motherboard's manufacturer) <br><br>
+                2. Go to boot section of your BIOS, and change the boot order. The label "UEFI: USB" or similar should be on the top of the boot order. Example is with the image below. <br>
+                <img src="https://www.minitool.com/images/uploads/news/2020/03/change-boot-order-windows-bios/change-boot-order-windows-bios-1.png" alt="imgbootorder"><br><br>
+                3. After you configured the boot order, you can restart to apply the changes. And once you restarted, the computer will automatically boot to windows installation.
+                
+
+            </p>
+            <br><br><h3>Starting installation to disk</h3><br><br>
+            <p>
+            Once you are in the installation media, you can now continue on the installation. Just click the install thingy and choose the default configuration for everything, unless you want a different
+            language windows will show. After you've landed in the disk partitioning part, follow the steps below. <br>
+            <img src="https://i0.wp.com/pureinfotech.com/wp-content/uploads/2019/01/create-partition-windows-10-installation.jpg?resize=827%2C620&quality=78&strip=all&ssl=1" alt="">
+            <br><br>
+            Delete every disk partition <em>except your USB device's partition</em>., and then select the unallocated space, then click next. Windows will now be on one partition.
+            <br><br>
+            After you've done all the steps above, now patiently wait for windows to be installed in your disk.
+            </p>
+            <br><br><br>
+            <h3 id="subsection1c">Finishing the Installation</h3><br><br><br>
+            <p>
+                Usually, after the installation you will be greeted with out-of-the-box experience. This wiki will tell you on how to setup using OOBE local account, or microsoft account.
+                <br><br>
+                If you are prompted to connect to your wifi below, but don't have wifi drivers/don't want to connect to wifi like the image below, refer to the steps below. (If you want to connect to wifi and continue the installation using the microsoft account method, skip to the privacy selections section.)
+                <br><img src="https://learn-attachment.microsoft.com/api/attachments/0dc02787-ce2e-4dac-858e-d74cd2d98ed5?platform=QnA" alt=""><br>
+                Say, if you haven't installed wifi drivers or don't want to connect to wifi for the sake of no bloatware installation and updates check, you can use the bypass the requirements. (As of 25H2, oobe\bypassnro no longer works, so we use an alternative method.) <br><br>
+                
+            </p>
+        </div>
+    </main>
+</body>
+</html>

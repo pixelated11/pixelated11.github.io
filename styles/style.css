@@ -55,4 +55,20 @@ body {
     text-align: center;
     margin: 0px;
     font-size: 2em;
+
+    a {
+        text-decoration: none;
+        color: #42a500;
+        border: 3px, solid, #FFFFFF;
+        border-radius: 15px;
+        display: block;
+        margin-left: 200px;
+        margin-right: 200px; 
+        margin-bottom: 25px;
+
+    }
+    a:hover {
+        color: #000000;
+        background-color: #FFFFFF;
+    }
 }

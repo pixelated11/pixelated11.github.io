@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/wiki.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <title>Pixelated's Wiki - Nintendo</title>
+</head>
+<body>
+    <nav id="sidebar">
+        <ul>
+            <li>
+                <span class="logo">Pixelated's Wiki</span>
+                <button onclick="toggleSidebar()" id="toggle-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+                </button>
+            </li>
+            <li>
+                <a href="#section0" style="margin-left: 40px;"><span>Introduction</span></a>
+            </li>
+            <li>
+                <button class="dropdown-btn" onclick="toggleSubMenu(this)">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                    <span>Preparing files</span>
+                </button>
+                <ul class="sub-menu">
+                    <div>
+                        <li><a href="#subsection1a">Preparing CFW</a></li>
+                        <li><a href="#subsection1b">Preparing Hekate</a></li>
+                        <li><a href="#subsection1c">Preparing Storage</a></li>
+                    </div>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <br><br><br><br><br><br><br>
+        <div class="title"><h2 id="section0"> Wiki: A guide to jailbreaking and more</h2></div>
+        <div class="paragraph">
+            <p>In this part of the Nintendo wiki, I will explain on how to jailbreak a Nintendo Switch, OLED version. (others not yet supported). Remember that <b>you must have installed a physical modchip before starting to jailbreak this switch OLED.</b> you can take it to an experienced person
+                and/or read this wiki <a style="text-decoration: none;" href="https://guide.nx-modchip.info/" target="_blank">here.</a> If you have installed a modchip on your switch OLED with PicoFly or other on,
+                you may continue this wiki.
+            </p>
+        </div>
+        <br><br><br><hr class="line"><br><br><br>
+        <div class="title"><h2 id="section1">Preparing Files Needed for jailbreaking</h2></div>
+        <div class="paragraph">
+            <h3 id="subsection1a">Preparing Atmosphere, the CFW</h3>
+            <p>
+                Before we begin, we need to prepare our CFW (custom firmware), that allows us to do things that stock firmwares (original factory firmware) can't do. This wiki uses the Atmosphere CFW, because its the most commonly
+                used among others. You can download atmospere CFW, using the link <a href="https://github.com/atmosphere-nx/atmosphere/releases" target="_blank">here.</a> And make sure to use the latest CFW.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
