@@ -255,6 +255,9 @@ body {
 .repo-row .github-btn {
     flex-shrink: 0;          /* prevent button from squishing */
 }
+.repo-row h3 {
+    margin-left: 50px;
+}
 .crypto-row {
     display: flex;
     flex-direction: row;
@@ -269,6 +272,9 @@ body {
     font-family: 'Inter';
     color: #ffffff;
     margin-left: 25px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+
 }
 .crypto-row img {
     height: 50px;
