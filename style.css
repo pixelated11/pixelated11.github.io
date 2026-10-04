@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +9,7 @@
 }
 
 body {
-    font-family: 'Inter', 'Open Sans';
+    font-family: 'Inter', 'Open Sans', 'JetBrains Mono';
     background-image: url(src/background.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -78,7 +79,7 @@ body {
         font-size: 2em;
     }
     p {
-        font-family: 'Open Sans';
+        font-family: 'JetBrains Mono';
         text-align: center;
 
     }
@@ -103,7 +104,7 @@ body {
     }
     p {
         text-align: left;
-        font-family: 'Inter';
+        font-family: 'JetBrains Mono';
     }
     color: #000000;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
